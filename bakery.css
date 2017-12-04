@@ -1,0 +1,406 @@
+html {
+	background-color: rgb(220,220,130);
+}
+
+/* Set the default page element styles */
+
+body * {
+   background: white;
+   font-family: arial, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;
+   list-style: none;
+   text-decoration: none;
+   vertical-align: baseline;
+   color: rgb(77,77,77);
+}
+
+body {
+	margin: 0px;
+	background-color: rgb(220,220,130);
+}
+
+header {
+   background: url('images/headerbckgnd.jpg') no-repeat top left;
+   max-width: 90%;
+   height: 100px;
+   color: white;
+   font-style: bold;
+   font-size: 3em;
+   text-align: center;
+   text-shadow: 3px 3px rgba(0,0,0,.5);
+   min-width: 500px;
+   padding-top: 25px;
+   margin: 0px auto;
+}
+
+section.sleft {
+   float: left;
+   height: 30px;
+   background-color: rgb(230,110,0);
+   /*box-shadow: -5px -5px 25px gray inset; */
+   width: 5%;
+   line-height: 25px;
+   margin-top: 5px;
+}
+
+section.snav {
+	float: left;
+	height: 25px;
+	width: 90%;
+	background-color: rgb(240,120,0);
+	margin: 0px;
+	padding: 0px;
+	box-shadow: 5px 5px 25px rgb(0,0,0);
+}
+
+nav * {
+	line-height: 30px;
+	min-height: 30px;
+	background-color: rgb(240,120,0);
+	margin: 0px;
+}
+
+nav ul li {
+	float: left;  
+	width: 120px;
+	text-align: center;
+	border-left: 1px solid white;
+}
+
+nav ul li a { 
+   width: 100%; 
+   font-size: 1em; 
+   text-decoration: none; 
+   color: white;
+   padding-right: 5px;
+   padding-left: 5px;
+}
+
+.active {
+	background-color: rgb(180,130,60);
+	color: white;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+nav a:hover {
+   text-decoration: underline;
+   font-weight: bold;
+}
+
+.sright {
+	float: left;
+	height: 30px;
+	background-color: rgb(230,110,0);
+	/*box-shadow: 5px -5px 15px gray inset; */
+	width: 5%;
+	line-height: 25px;
+	margin-top: 5px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.tcontent {
+	display: block;
+	min-width: 500px;
+	max-width: 90%;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.content {
+	display: block;
+	width: 90%;
+	margin: auto;
+	background-color: white;
+}
+
+table {
+	border: 2px solid rgb(240,120,0);
+	border-radius: 5px;
+	width: 90%;
+	text-align: center;
+	box-shadow: 15px 15px 25px gray;
+	margin: auto;
+}
+
+tr, td {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+	font-size: 1em;
+	vertical-align: middle;
+	line-height: 25px;
+}
+
+#header {
+	background-color: rgb(100,150,0);
+	height: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 150%;
+	text-transform: uppercase;
+}
+
+.cost {
+	background-color: rgb(240,120,0);
+	border: 1px solid rgb(240,120,0);
+	border-radius: 17px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	margin: 10px auto;
+	color: white;
+	font-weight: bold;
+}
+
+#five {
+	margin-left: 20px;
+	padding-left: 20px;
+	width: 35%;
+}
+
+#six {
+	background-color: rgb(255, 232, 232);
+}
+
+#seven {
+	margin-right: 20px;
+	padding-right: 20px;
+	width: 35%;
+}
+
+#soup {
+	background: url('images/fruitscrp.jpg') no-repeat center;
+	height: 30px;
+}
+
+p {
+	color: rgb(240,120,0);
+}
+
+div.breakfast {
+	width: 28%;
+	float: left;
+	margin: auto;
+	padding-left: 5%;
+	padding-right: 2%;
+	padding-bottom: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.lunch {
+	width: 28%;
+	float: left;
+	margin: auto;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.catering {
+	width: 28%;
+	float: left;
+	margin: auto;
+	padding-left: 2%;
+	padding-right: 5%;
+	padding-bottom: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.infographic {
+	height: 150px;
+	width: 200px;
+	margin: auto;
+}
+
+footer {
+	display: block;
+	width: 90%;
+	margin: auto;
+	background-color: rgb(240,120,0);
+	text-align: center;
+	font-size: 10pt;
+	color: white;
+}
+.menu {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: block;
+	width: 90%;
+	margin: auto;
+	background-color: white;
+}
+
+h1 {
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: rgb(240,120,0);
+	margin-left: 10px;
+}
+
+mt {
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	color: rgb(180,130,60);
+	margin-left: 15px;
+	padding-top: 10 px;
+}
+
+mn a {
+	font-size:1em;
+	color: rgb(100,150,0);
+	text-decoration: underline;
+	margin-left: 10px;
+	font-weight: normal;
+}
+
+md {
+	display: block;
+	font-size:1em;
+	color: gray;
+	font-style: italic;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: justify;
+}
+
+.mdi {
+	height: 100px;
+	float: left;
+	margin-right: 15px;
+	padding-right: 15px;
+}
+
+form {
+	margin: auto;
+	min-width: 500px;
+	max-width: 900px;
+}
+
+fieldset {
+	border: none;
+	margin: auto;
+	min-width: 500px;
+	max-width: 900px;
+}
+
+legend {
+	background-color: rgb(100,150,0);
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-indent: 20px;
+	width: 100%;
+	border-bottom-style: round;
+	border-radius: 10px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	float: left;
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 25%;
+}
+
+input{
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	width: 60%;
+	margin-top: 2px;
+	margin-bottom: 2 px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 2px;
+}
+
+div {
+	display: block;
+}
+
+textarea {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	height: 75px;
+	width: 60%;
+}
+
+optgroup {
+	display: block;
+	margin-left: 25%;
+}
+
+.radio {
+	display: inline;
+	float: none;
+	width: 100px;
+}
+
+input[type="radio"] {
+	display: inline;
+	float: none;
+	margin: 0px;
+	width: 20px;
+}
+
+#csc {
+	width: 50px;
+}
+
+button {
+	background-color: rgb(240, 120, 0);
+	width: 150px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: auto;
+	border-style: round;
+	border-radius: 15px;
+	color: white;
+}
+
+.about {
+	display: block;
+	width: 90%;
+	margin: auto;
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about p {
+	margin-left: 5%;
+	margin-right: 5%;
+	color: gray;
+}
