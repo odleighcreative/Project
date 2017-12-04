@@ -22,7 +22,7 @@ body {
 }
 
 header {
-   background: url('images/headerbckgnd.jpg') no-repeat top left;
+   background: url('headerbckgnd.jpg') no-repeat top left;
    max-width: 90%;
    height: 100px;
    color: white;
@@ -178,7 +178,7 @@ tr, td {
 }
 
 #soup {
-	background: url('images/fruitscrp.jpg') no-repeat center;
+	background: url('fruitscrp.jpg') no-repeat center;
 	height: 30px;
 }
 
